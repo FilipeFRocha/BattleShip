@@ -17,37 +17,43 @@ html {
 }
 
 .board1 {
-	width: 380px;
-	height: 440px;
+	width: 98%;
+	height: 98%;
 	margin: 25px auto;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
 }
 
 .board2 {
-	width: 380px;
-	height: 440px;
+	width: 98%;
+	height: 98%;
 	margin: 25px auto;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
 }
 
 .smallBoard {
-	width: 370px;
+	width: 98%;
 	height: 50px;
 	margin: 5px auto;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
+
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	vertical-align: middle;
 }
 
 .displays {
 	position: relative;
-	margin: 25px;
+	height: 320px;
+	margin: 10px;
 }
 
 .top {
-	width: 330px;
-	height: 330px;
+	width: 100%;
+	height: 100%;
 	background: #008B8B;
 	border-left: 1px solid #8DEEEE;
 	border-bottom: 1px solid #8DEEEE;
@@ -55,9 +61,8 @@ html {
 }
 
 .bottom {
-	width: 330px;
-	height: 330px;
-	margin-top: 25px;
+	width: 100%;
+	height: 100%;
 	background: #008B8B;
 	border-left: 1px solid #8DEEEE;
 	border-bottom: 1px solid #8DEEEE;
@@ -65,49 +70,21 @@ html {
 
 .grid {
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	width: 100%;
+	height: 100%;
 	background: rgba(0,0,0,0);
-	margin-left: 30px;
 	font-size: 0;
 }
 
-.aTops {
-	width: 29px;
-	height: 29px;
-	border-top: 1px solid #8DEEEE;
-	border-right: 1px solid #8DEEEE;
-	display: table-cell;
-	vertical-align: middle;
 
-	font-weight: bold;
-	color: white;
-	text-align: center;
-}
-
-.aLeft {
-	position: relative;
-	width: 29px;
-	height: 29px;
-	border-top: 1px solid #8DEEEE;
-	border-right: 1px solid #8DEEEE;
-	display: block;
-	line-height: 29px;
-
-	font-weight: bold;
-	color: white;
-	text-align: center;
-}
 
 .points {
 	position: relative;
-	width: 29px;
-	height: 29px;
+	width: 10%;
+	height: 10%;
 	border-top: 1px solid #8DEEEE;
 	border-right: 1px solid #8DEEEE;
 	display: inline-block;
-
-
 }
 
 .highlight {
@@ -135,7 +112,7 @@ html {
 }
 
 .topPanel {
-	width: 275px;
+	width: 98%;
 	height: 350px;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
@@ -143,17 +120,22 @@ html {
 }
 
 .smallPanel{
-	width: 260px;
+	width: 96%;
 	height: 50px;
 	margin: 5px;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
 	display: inline-block;
+
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	
 }
 
 .console {
 	position: relative;
-	width: 275px;
+	width: 98%;
 	height: 350px;
 	margin-top: 36px;
 	display: block;
@@ -166,7 +148,7 @@ html {
 
 .text {
 	position: relative;
-	width: 250px;
+	width: 92%;
 	height: 375px;
 	margin: 12px;
 	display: inline-block;
@@ -175,7 +157,7 @@ html {
 .buttons {
 	position: relative;
 	display: block;
-	width: 150px;
+	width: 70%;
 	height: 40px;
 
 	margin: 50px auto;
