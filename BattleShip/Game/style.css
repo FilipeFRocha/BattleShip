@@ -30,6 +30,7 @@ html {
 	margin: 25px auto;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
+	align-content: center;
 }
 
 .smallBoard {
@@ -47,22 +48,22 @@ html {
 
 .displays {
 	position: relative;
-	height: 320px;
-	margin: 10px;
+	height: 22vw;
+	margin: 0px;
+	align-content: center;
 }
 
 .top {
-	width: 100%;
-	height: 100%;
+	width: max(22vw);
+	height: max(22vw);
 	background: #008B8B;
 	border-left: 1px solid #8DEEEE;
 	border-bottom: 1px solid #8DEEEE;
-
 }
 
 .bottom {
-	width: 100%;
-	height: 100%;
+	width: max(22vw);
+	height: max(22vw);
 	background: #008B8B;
 	border-left: 1px solid #8DEEEE;
 	border-bottom: 1px solid #8DEEEE;
@@ -71,20 +72,20 @@ html {
 .grid {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 22vw;
 	background: rgba(0,0,0,0);
 	font-size: 0;
+	align-content: center;
 }
-
-
 
 .points {
 	position: relative;
-	width: 10%;
-	height: 10%;
+	width: max(2.2vw);
+	height: max(2.2vw);
 	border-top: 1px solid #8DEEEE;
 	border-right: 1px solid #8DEEEE;
 	display: inline-block;
+	align-self: center;
 }
 
 .highlight {
@@ -109,6 +110,7 @@ html {
 .panel {
 
 	margin-top: 25px;
+	align-content: center;
 }
 
 .topPanel {
@@ -117,12 +119,13 @@ html {
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
 	display: inline-block;
+	align-content: center;
 }
 
 .smallPanel{
-	width: 96%;
+	width: 98%;
 	height: 50px;
-	margin: 5px;
+	margin: 5px auto;
 	border: 2px solid #73B1B7;
 	border-radius: 10px;
 	display: inline-block;
