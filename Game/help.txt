@@ -1,1 +1,17 @@
+drag object:
+
 https://codepen.io/gregOnCodePen/pen/bGByWvV
+
+http://www.java2s.com/Tutorials/Javascript/jQuery_UI/Draggable/Build_jQuery_UI_Draggable_Snap_to_element_or_grid_in_JavaScript.htm
+
+https://www.geeksforgeeks.org/jquery-ui-draggable-snap-option/
+
+https://codepen.io/hienlm/pen/BaojoBj
+
+rotate:
+
+https://www.akashminds.com/2022/10/how-to-rotate-image-clockwise.html
+
+select object (button):
+
+https://www.geeksforgeeks.org/how-to-get-the-id-of-the-clicked-button-using-javascript-jquery/
