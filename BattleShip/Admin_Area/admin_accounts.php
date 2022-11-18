@@ -18,10 +18,10 @@
 <div class="container">
   <h2>Contas de Admin</h2>
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Criar nova conta de admin</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#CreateModal">Criar nova conta de admin</button>
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="CreateModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
@@ -65,6 +65,54 @@
    </form>
 </div>
 
+
+
+
+  <!-- Edit Modal -->
+  <div class="modal fade" id="EditModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Nova conta de admin</h4>
+        </div>
+        <form action="create_admin.php" method="POST">
+        <div class="form-group">
+            <label>Nome:</label>
+            <input type="text" name="admin_nome" required>
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="text" name="admin_email" required>
+        </div>
+        <div class="form-group">
+            <label>Password:</label>
+            <input type="password" name="admin_pass" required>
+        </div>
+
+        <p>Por favor escolha o avatar que preferir</p>
+        <div class="av-selector">
+          <input id="admin1" type="radio" name="admin_avatar" value="admin1" />
+          <label class="drinkcard-av admin1" for="admin1"></label>
+          <input id="admin2" type="radio" name="admin_avatar" value="admin2" />
+          <label class="drinkcard-av admin2"for="admin2"></label>
+        </div>
+        </div>
+   
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default" name="submit" >Editar conta</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+   </form>
+</div>
+
 <table class="table table-bordered">
       <thead class="alert-success">
         <tr>
@@ -89,7 +137,9 @@
           <td align="center" style='vertical-align: middle;'><?php echo $fetch['admin_email']?></td>
           <td align="center" style='vertical-align: middle;'><?php echo $fetch['admin_pass']?></td>
           <td align="center" style='vertical-align: middle;'><img src="<?php echo "../../Images/Admin/" . $fetch['admin_avatar'] . ".png" ?>" style="height: 100px; width: 100px;"/></td>
-          <td align="center" style='vertical-align: middle;'><a href="edit_admin.php?editId=<?php echo $fetch['admin_id']; ?>" data-target="#myModal" class="text-primary"><i class="bi bi-pencil-square" style="font-size: 30px;"></i></a></td>
+          <td align="center" style='vertical-align: middle;'><a href="edit_admin.php?editId=<?php echo $fetch['admin_id']; ?>" class="text-primary"><i class="bi bi-pencil-square" style="font-size: 30px;"></i></a></td>
+          <td> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#CreateModal">Criar nova conta de admin</button></td>
+          
           <td align="center" style='vertical-align: middle;'><a href="delete_admin.php?delId=<?php echo $fetch['admin_id']; ?>" class="text-danger"><i class="bi bi-trash" style="font-size: 30px;"></i></a></td>
         </tr>
         <?php
