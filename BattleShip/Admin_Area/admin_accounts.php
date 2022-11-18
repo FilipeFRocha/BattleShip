@@ -47,9 +47,9 @@
         <p>Por favor escolha o avatar que preferir</p>
         <div class="av-selector">
           <input id="admin1" type="radio" name="admin_avatar" value="admin1" />
-          <label class="drinkcard-av a1" for="admin1"></label>
+          <label class="drinkcard-av admin1" for="admin1"></label>
           <input id="admin2" type="radio" name="admin_avatar" value="admin2" />
-          <label class="drinkcard-av a2"for="admin2"></label>
+          <label class="drinkcard-av admin2"for="admin2"></label>
         </div>
         </div>
    
@@ -89,7 +89,7 @@
           <td align="center" style='vertical-align: middle;'><?php echo $fetch['admin_email']?></td>
           <td align="center" style='vertical-align: middle;'><?php echo $fetch['admin_pass']?></td>
           <td align="center" style='vertical-align: middle;'><img src="<?php echo "../../Images/Admin/" . $fetch['admin_avatar'] . ".png" ?>" style="height: 100px; width: 100px;"/></td>
-          <td align="center" style='vertical-align: middle;'><a href="edit_admin.php?editId=<?php echo $fetch['admin_id']; ?>" class="text-primary"><i class="bi bi-pencil-square" style="font-size: 30px;"></i></a></td>
+          <td align="center" style='vertical-align: middle;'><a href="edit_admin.php?editId=<?php echo $fetch['admin_id']; ?>" data-target="#myModal" class="text-primary"><i class="bi bi-pencil-square" style="font-size: 30px;"></i></a></td>
           <td align="center" style='vertical-align: middle;'><a href="delete_admin.php?delId=<?php echo $fetch['admin_id']; ?>" class="text-danger"><i class="bi bi-trash" style="font-size: 30px;"></i></a></td>
         </tr>
         <?php
