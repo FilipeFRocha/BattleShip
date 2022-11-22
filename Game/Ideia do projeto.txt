@@ -1,0 +1,83 @@
+﻿https://gomockingbird.com/
+
+
+https://github.com/billmei/battleboat
+
+https://codepen.io/patrycja-b/pen/EWRywX
+
+https://codepen.io/collosic/pen/DLrVEY
+
+https://shan-javascript-battleship.herokuapp.com/
+
+https://js13kgames.com/entries/back-to-the-battle-ship
+
+https://css-tricks.com/building-battleship-in-css/
+
+https://www.youtube.com/watch?v=4yzZ8UonvDI
+
+https://github.com/yakir7/online-2p-snake
+
+https://github.com/kurashiva11/Chess-game
+
+https://github.com/RabiRoshan/bingo
+
+https://github.com/cernikkk/battleship
+
+https://github.com/UsmanJafri/Battleship
+
+Multiplayer:
+	https://www.youtube.com/watch?v=ppcBIHv_ZPs
+
+
+Batalha naval
+
+	Fazer servidor em PHP
+	
+	Online multiplayer (Cliente conecta-se ao Host)
+
+	Bots com dificuldades
+
+	Layout da pagina
+
+	Base de Dados - (Nome, Score, Jogos ganhos, Jogos perdidos, Tiros acertados, Tiros falhados, Imagem do Avatar)
+	
+	(desafio - navios desenhados pelo player)
+
+	Conta - manda para base de dados
+	
+	Guest - guarda informações base (nome, avatar)
+
+	Game time
+
+	Ideia - Adicionar avioes, campo aereo e marinho.
+
+	Ideia - Spectate
+
+	
+
+Code
+
+	Html
+	CSS
+	Javascript
+	PHP
+	
+
+	
+
+
+Regras
+
+
+	Escolher a posição das peças
+
+	Por turnos, um jogador escolhe a posição que pretende atacar
+		Se atingir uma peça tem mais uma tentativa
+		Se falhar passa o turno
+
+	O jogo acaba quando um dos jogadores ficar sem peças	
+
+https://codepen.io/patrycja-b/pen/EWRywX
+	
+
+	
